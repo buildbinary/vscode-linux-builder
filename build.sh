@@ -19,7 +19,7 @@ mkdir -p "$output_directory"
 
 # Build the solution
 echo "Building the solution..."
-"$mcs_path" /nologo /verbosity:quiet /target:exe /out:"$output_directory/app.exe" "$solution_file"
+"$mcs_path" /target:exe /out:"$output_directory/app.exe" "$solution_file"
 
 # Check the build status
 if [ $? -eq 0 ]; then
