@@ -24,3 +24,7 @@ sudo pacman -Sy mono
 <br>
 openSUSE:
 sudo zypper install mono-devel
+
+# Doesnt work?
+
+You most likely either dont have the required dependencies or didnt chmod +x * :)
